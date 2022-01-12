@@ -1,5 +1,5 @@
-var mySong= document.getElementById("mySong");
-var icon= document.getElementById("icon");
+let mySong= document.getElementById("mySong");
+let icon= document.getElementById("icon");
 
 icon.onclick= function(){
     if(mySong.paused){
